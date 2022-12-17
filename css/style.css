@@ -43,6 +43,11 @@ div {
     margin-left: 550px;
 }
 
+.link4 {
+    font-size: 30px;
+    margin-left: 550px;
+}
+
 .pic1 {
     margin-left: 40px;
     margin-top: 20px;
@@ -88,3 +93,12 @@ a {
     border-style: solid;
 }
 
+.appointments {
+    font-size: 50px;
+    color: #af1313;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+
+}
