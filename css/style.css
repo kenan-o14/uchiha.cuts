@@ -87,7 +87,7 @@ a {
 
 .uchihalogo{
     background-image: url(../img/logo.png);
-    margin-left: 50px;
+    margin-left: 25px;
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
@@ -101,4 +101,47 @@ a {
     margin-right: 10px;
     font-weight: 800;
 
+}
+
+.explore {
+    
+}
+
+.box2 {
+    background-color: #a7a3b4;
+    margin-top: 10px;
+    flex-shrink: calc(300);
+    width: 300px;
+    padding-bottom: 50px;
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+    font-size: 25px;
+    line-height: 75px;
+    
+
+
+}
+
+.box3 {
+    margin-top: 10px;
+    width: 300px;
+    padding-bottom: 50px;
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+
+    background-image: url(../img/KonohaMap.png);
+
+
+}
+
+.appt2 {
+    font-size: 30px;
+    margin-left: 250px;
+}
+
+.map {
+    margin-left: 500px;
+    margin-bottom: 300px;
 }
