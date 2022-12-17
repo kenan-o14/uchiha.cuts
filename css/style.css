@@ -1,0 +1,90 @@
+h2 {
+    font-size: 30px;
+    color: #af1313;
+    font-family: 'Calibri', 'Gill Sans MT', Gill sans-serif, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    margin-left: 25px;
+}
+
+
+body {
+       background-color: black;
+       background-image: url(../img/nami.png);
+}
+
+h1 {
+      color: #af1313;
+      font-size: 50px;
+      margin-left: 800px;
+
+      font-style: italic;
+}
+
+h2 {
+    color: #af1313;
+}
+
+div {
+      background: #a7a3b4;
+}    
+
+
+.link1 {
+    font-size: 30px;
+    margin-left: 250px;
+
+}
+.link2 {
+    font-size: 30px;
+    margin-left: 500px;
+}
+.link3 {
+    font-size: 30px;
+    margin-left: 550px;
+}
+
+.pic1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+}
+
+.pic2 {
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+}
+
+.pic3 {
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+
+
+}
+
+.box {
+    background-color: #a7a3b4;
+    margin-top: 10px;
+    width: 1000px;
+    padding-bottom: 50px;
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+}
+
+a {
+    color: #af1313;
+
+}
+
+.uchihalogo{
+    background-image: url(../img/logo.png);
+    margin-left: 50px;
+    border-width: 5px;
+    border-color: #af1313;
+    border-style: solid;
+}
+
