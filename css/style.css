@@ -75,14 +75,36 @@ div {
     margin-top: 10px;
     width: 1000px;
     padding-bottom: 50px;
+    padding-left: 1px;
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
+    max-width: fit-content;
+    margin: auto;
+    
+}
+a, .link1, .link2, .link3, .link4, .appt2, :link {
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+a, .link1, .link2,  :link {
+    color: aliceblue;
+    
+
 }
 
-a {
-    color: #af1313;
+a, :visited {
+    color: #a7a3b4;
+}
 
+a,  :hover {
+    color: #070000;
+
+}
+
+a, :active {
+    color: #af1313;
 }
 
 .uchihalogo{
@@ -125,13 +147,15 @@ a {
 
 .box3 {
     margin-top: 10px;
-    width: 300px;
+    width: 800px;
+    height: 500px;
     padding-bottom: 50px;
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
-
+    margin-left: 800px;
     background-image: url(../img/KonohaMap.png);
+    margin: auto;
 
 
 }
