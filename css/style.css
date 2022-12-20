@@ -150,9 +150,11 @@ a, :active {
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
-    font-size: 25px;
-    line-height: 75px;
+    font-size: 23px;
+    line-height: 45px;
     border-radius: 25px;
+    text-shadow: 3px 2px #a7a3b4;
+    
     
 
 
@@ -232,6 +234,32 @@ h3 {
     margin-top: 8px;
 }
 
-. {
+li a {
+    display: block;
     
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+}
+
+.fakead {
+    max-width: 400px;
+    margin-top: 400px;
+    border-style: ridge;
+    border-color: #000000;
+    background-image: url(../img/Academy.png);
+    margin-bottom: 30px;
+
+}
+
+.academy {
+    max-width: 396px;
+    border-style: groove;
+    border-color: black;
+
 }
