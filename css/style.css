@@ -10,12 +10,14 @@ h2 {
 body {
        background-color: black;
        background-image: url(../img/nami.png);
+       background-attachment: fixed;
 }
 
 h1 {
       color: #af1313;
       font-size: 50px;
       margin-left: 800px;
+      text-shadow: 3px 2px #282f3f;
 
       font-style: italic;
 }
@@ -25,27 +27,34 @@ h2 {
 }
 
 div {
-      background: #a7a3b4;
+      background: black;
+      border-style: ridge;
+      border-color: #282f3f;
+      
 }    
 
 
 .link1 {
     font-size: 30px;
     margin-left: 250px;
+    text-shadow: 3px 2px #282f3f;
 
 }
 .link2 {
     font-size: 30px;
     margin-left: 500px;
+    text-shadow: 3px 2px #282f3f;
 }
 .link3 {
     font-size: 30px;
     margin-left: 550px;
+    text-shadow: 3px 2px #282f3f;
 }
 
 .link4 {
     font-size: 30px;
     margin-left: 550px;
+    text-shadow: 3px 2px #282f3f;
 }
 
 .pic1 {
@@ -81,6 +90,7 @@ div {
     border-style: solid;
     max-width: fit-content;
     margin: auto;
+    border-radius: 25px;
     
 }
 a, .link1, .link2, .link3, .link4, .appt2, :link {
@@ -95,16 +105,16 @@ a, .link1, .link2,  :link {
 }
 
 a, :visited {
-    color: #a7a3b4;
+    color: #af1313;
 }
 
 a,  :hover {
-    color: #070000;
+    color: #282f3f;
 
 }
 
 a, :active {
-    color: #af1313;
+    color: #a7a3b4;
 }
 
 .uchihalogo{
@@ -113,6 +123,7 @@ a, :active {
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
+    border-radius: 25px;
 }
 
 .appointments {
@@ -132,14 +143,14 @@ a, :active {
 .box2 {
     background-color: #a7a3b4;
     margin-top: 10px;
-    flex-shrink: calc(300);
-    width: 300px;
+    width: 200px;
     padding-bottom: 50px;
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
     font-size: 25px;
     line-height: 75px;
+    border-radius: 25px;
     
 
 
@@ -147,15 +158,17 @@ a, :active {
 
 .box3 {
     margin-top: 10px;
-    width: 800px;
-    height: 500px;
+    width: 770px;
+    height: 590px;
     padding-bottom: 50px;
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
-    margin-left: 800px;
     background-image: url(../img/KonohaMap.png);
-    margin: auto;
+    margin-right: 500px;
+    float: right;
+    border-radius: 25px;
+    
 
 
 }
@@ -169,3 +182,19 @@ a, :active {
     margin-left: 500px;
     margin-bottom: 300px;
 }
+
+.button {
+    background-color: #a7a3b4;
+    border: solid;
+    color: #af1313;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow 12px; 
+    border-radius: 25px;
+
+}
+
+
+
