@@ -138,9 +138,6 @@ a, :active {
 
 }
 
-.explore {
-    
-}
 
 .box2 {
     background-color: #a7a3b4;
@@ -196,7 +193,7 @@ a, :active {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    box-shadow 12px; 
+    box-shadow: 12px; 
     border-radius: 25px;
 
 }
