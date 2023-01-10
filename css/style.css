@@ -18,9 +18,8 @@ body {
 h1 {
       color: black;
       font-size: 50px;
-      margin-left: 800px;
-      text-shadow: 3px 2px #a7a3b4;
       display: flex;
+      text-shadow: 3px 2px #a7a3b4;
 
       font-style: italic;
 }
@@ -35,6 +34,12 @@ div {
       background-image: linear-gradient(#282f3f, red);
       border-style: ridge;
       border-color: #282f3f;
+      
+      
+      
+      
+      
+      
       
     
       
@@ -204,6 +209,9 @@ a, :active {
     font-size: 16px;
     box-shadow: 12px; 
     border-radius: 25px;
+    display: flex;
+    list-style: none;
+    gap: 4rem;
 
 }
 
@@ -236,8 +244,7 @@ h3 {
     border-style: solid;
     border-radius: 25px;
     border-color: #a7a3b4;
-    margin-left: 600px;
-    margin-top: 8px;
+    
     
     
 }
@@ -280,4 +287,15 @@ ul {
 }
 .flex {
     display: flex;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.home {
+    display: flex;
+    gap: 15rem;
 }
