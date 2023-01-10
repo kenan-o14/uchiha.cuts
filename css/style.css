@@ -156,7 +156,7 @@ a, :active {
 
 .box2 {
     background-color: #a7a3b4;
-    margin-top: 10px;
+    margin-top: 100px;
     width: 200px;
     padding-bottom: 50px;
     border-width: 5px;
@@ -166,6 +166,7 @@ a, :active {
     line-height: 45px;
     border-radius: 25px;
     text-shadow: 3px 2px #a7a3b4;
+    display: flex;
     
     
 
@@ -181,9 +182,9 @@ a, :active {
     border-color: #af1313;
     border-style: solid;
     background-image: url(../img/KonohaMap.png);
-    margin-right: 500px;
     float: right;
     border-radius: 25px;
+    display: flex;
     
 
 
