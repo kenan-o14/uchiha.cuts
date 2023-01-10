@@ -73,7 +73,7 @@ div {
 }
 
 .pic1 {
-    margin-left: 40px;
+    
     margin-top: 20px;
     border-width: 5px;
     border-color: #af1313;
@@ -85,12 +85,14 @@ div {
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
+    margin-top: 20px;
 }
 
 .pic3 {
     border-width: 5px;
     border-color: #af1313;
     border-style: solid;
+    margin-top: 20px;
 
 
 }
@@ -297,5 +299,5 @@ ul {
 
 .home {
     display: flex;
-    gap: 15rem;
+    gap: 10rem;
 }
