@@ -91,7 +91,7 @@ div {
     border-color: #af1313;
     border-style: solid;
     margin-top: 20px;
-    margin-bottom: 20px;
+    
 
 
 }
@@ -105,7 +105,7 @@ div {
     border-color: #af1313;
     border-style: solid;
     max-width: fit-content;
-    margin: auto;
+    margin-top: 25px;
     border-radius: 25px;
     
 }
@@ -129,7 +129,7 @@ a,  :hover {
 
 }
 
-a, :active {
+a link :active {
     color: #a7a3b4;
 }
 
@@ -181,7 +181,6 @@ a, :active {
     border-color: #af1313;
     border-style: solid;
     background-image: url(../img/KonohaMap.png);
-    float: right;
     border-radius: 25px;
     display: flex;
     
