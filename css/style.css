@@ -183,6 +183,7 @@ a link :active {
     background-image: url(../img/KonohaMap.png);
     border-radius: 25px;
     display: flex;
+    max-width: 100%;
     
 
 
@@ -212,6 +213,7 @@ a link :active {
     display: flex;
     list-style: none;
     gap: 3rem;
+    flex-wrap: wrap;
 
 }
 
@@ -263,7 +265,7 @@ ul {
 }
 
 .fakead {
-    /* max-width: 400px; */
+    max-width: 400px;
     margin-top: 400px;
     border-style: ridge;
     border-color: #000000;
@@ -273,7 +275,7 @@ ul {
 }
 
 .academy {
-    /* max-width: 396px; */
+    max-width: 396px;
     border-style: groove;
     border-color: black;
 
