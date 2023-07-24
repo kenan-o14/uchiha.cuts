@@ -263,7 +263,7 @@ ul {
 }
 
 .fakead {
-    max-width: 400px;
+    /* max-width: 400px; */
     margin-top: 400px;
     border-style: ridge;
     border-color: #000000;
@@ -273,7 +273,7 @@ ul {
 }
 
 .academy {
-    max-width: 396px;
+    /* max-width: 396px; */
     border-style: groove;
     border-color: black;
 
@@ -284,6 +284,7 @@ ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    flex-wrap: wrap;
 }
 .flex {
     display: flex;
