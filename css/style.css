@@ -213,7 +213,7 @@ a link :active {
     display: flex;
     list-style: none;
     gap: 3rem;
-    flex-wrap: wrap;
+    
 
 }
 
